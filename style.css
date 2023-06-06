@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
 .cabecalho {
     background-color: #B4C9FF;
     color: black;
@@ -49,3 +54,29 @@ font-size: 24px;
     padding: 24px 0;
 }
 
+.estudante-imagem{
+    width: 35%;
+} 
+
+.estudante{
+    background-image: linear-gradient(#f95959,#B4C9FF);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.estudante-div{
+    width: 35%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
